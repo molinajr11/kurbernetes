@@ -22,4 +22,12 @@ Funciones ▶️
 - ClusterIP
 - NodePort
 - LoadBalancer
+# Healthchecks
+Son especialmente relevantes para garantizar la disponibilidad y el rendimiento 📋 de las aplicaciones que se ejecutan en contenedores 🐳
+Tipos de healthchecks:
+  - Liveness Probe (Sonda de Vida) : verifica si un contenedor está vivo y funcionando.
+  - Readiness Probe (Sonda de Preparación):  Una Readiness Probe verifica si un contenedor está listo para        recibir tráfico.
+  - Startup Probe (Sonda de Inicio): Verifica si un contenedor ha terminado de inicializarse y está listo         para manejar solicitudes. Esto es útil cuando los contenedores pueden requerir más tiempo para                inicializarse.
+# Ingress controller:
+componente crucial para administrar la exposición y el enrutamiento de servicios HTTP y HTTPS de manera más flexible y estructurada, lo que facilita la administración de la entrada de tráfico a las aplicaciones en el clúster.
   
