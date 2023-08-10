@@ -11,5 +11,15 @@ Si un Pod falla ❗, Kubernetes puede crear uno nuevo para reemplazarlo, siguien
 - Escalado
 + En Kubernetes, el escalado horizontal 🌅 se logra mediante la creación o eliminación de réplicas ©️ de un conjunto de Pods que ejecutan la misma aplicación.
 + El escalado horizontal permite utilizar los recursos disponibles de manera más eficiente, ya que puedes distribuir la carga en varias instancias en lugar de depender de una sola instancia con recursos más grandes.
-- Respuesta a fallo 
+- Respuesta a fallo
+# Services 
+Es un objeto que define una forma de acceder a una o varias instancias de Pods.
+- permite que las aplicaciones en el clúster se comuniquen entre sí y con el mundo exterior de manera confiable y predecible.
+Funciones ▶️
+- Balanceo de carga: Los Servicios pueden distribuir el tráfico de red entrante entre las diferentes réplicas de Pods.
+- Estabilidad de la dirección IP: Los Servicios tienen direcciones IP virtuales que persisten a lo largo de la vida útil de la aplicación.
+# Tipos de Servicios: 
+- ClusterIP
+- NodePort
+- LoadBalancer
   
